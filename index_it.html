@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucio Freni — Scrittore Indipendente</title>
+  <meta name="description" content="Lucio Freni, scrittore italiano indipendente. Noir, distopia, grottesco filosofico, romanzo epistolare. Sette libri pubblicati. Roma." />
+  <link rel="alternate" hreflang="it" href="https://www.luciofreni.com/" />
+  <link rel="alternate" hreflang="en" href="https://www.luciofreni.com/en/" />
+  <link rel="alternate" hreflang="fr" href="https://www.luciofreni.com/fr/" />
+  <link rel="alternate" hreflang="es" href="https://www.luciofreni.com/es/" />
+  <link rel="alternate" hreflang="pt" href="https://www.luciofreni.com/pt/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.luciofreni.com/" />
+  <link rel="canonical" href="https://www.luciofreni.com/" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Space+Mono:wght@400;700&display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0e0e0e;
+      --fg: #e8e2d9;
+      --accent: #c8a96e;
+      --muted: #6b6560;
+      --serif: 'EB Garamond', Georgia, serif;
+      --mono: 'Space Mono', monospace;
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--fg); font-family: var(--serif); line-height: 1.7; }
+    nav { position: fixed; top: 0; right: 0; padding: 1.2rem 2rem; display: flex; gap: 1.2rem; z-index: 100; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.1em; }
+    nav a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    nav a:hover, nav a.active { color: var(--accent); }
+    header { min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 4rem 2rem 3rem; max-width: 800px; margin: 0 auto; }
+    h1 { font-family: var(--serif); font-size: clamp(3rem, 8vw, 6rem); font-weight: 400; font-style: italic; line-height: 1; margin-bottom: 0.5rem; }
+    .subtitle { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 3rem; }
+    .intro { font-size: 1.1rem; color: var(--fg); max-width: 560px; margin-bottom: 2rem; }
+    .influences { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.05em; }
+    .influences span { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 0 2rem 6rem; }
+    section { margin-bottom: 5rem; }
+    h2 { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--accent); margin-bottom: 3rem; padding-bottom: 0.5rem; border-bottom: 1px solid #2a2a2a; }
+    .book { margin-bottom: 3.5rem; padding-bottom: 3.5rem; border-bottom: 1px solid #1a1a1a; }
+    .book:last-child { border-bottom: none; }
+    .book-header { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 0.3rem; flex-wrap: wrap; }
+    .book-title { font-size: 1.3rem; font-style: italic; font-weight: 500; }
+    .book-year { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); }
+    .book-meta { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); margin-bottom: 1rem; letter-spacing: 0.05em; }
+    .book-desc { color: #c8c0b5; font-size: 0.95rem; max-width: 560px; margin-bottom: 1rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { font-family: var(--mono); font-size: 0.6rem; color: var(--muted); border: 1px solid #2a2a2a; padding: 0.2rem 0.5rem; letter-spacing: 0.08em; }
+    .quotes { display: flex; flex-direction: column; gap: 2rem; }
+    blockquote { font-style: italic; font-size: 1.15rem; color: var(--fg); padding-left: 1.5rem; border-left: 2px solid var(--accent); }
+    .links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .links a { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); text-decoration: none; letter-spacing: 0.1em; border-bottom: 1px solid #2a2a2a; padding-bottom: 2px; transition: color 0.2s, border-color 0.2s; }
+    .links a:hover { color: var(--accent); border-color: var(--accent); }
+    footer { text-align: center; font-family: var(--mono); font-size: 0.62rem; color: var(--muted); padding: 2rem; letter-spacing: 0.1em; border-top: 1px solid #1a1a1a; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="active">IT</a>
+    <a href="/en/">EN</a>
+    <a href="/fr/">FR</a>
+    <a href="/es/">ES</a>
+    <a href="/pt/">PT</a>
+  </nav>
+
+  <header>
+    <h1>Lucio Freni</h1>
+    <p class="subtitle">Scrittore · Roma</p>
+    <p class="intro">Scrittore indipendente, neurodivergente. Asperger, ADHD, e quel tipo di intelligenza che ti fa vedere tutte le connessioni ma non ti fa trovare la porta per uscire dalla stanza. Sette libri pubblicati: noir, distopia, grottesco filosofico, romanzo epistolare di guerra, saggistica neuroscientifica. Scrivo perché se non scrivessi sarebbe come se non fossi mai esistito. I miei libri li vomito — escono interi, densi, e hanno bisogno di lettori coraggiosi per essere attraversati.</p>
+    <p class="influences"><span>Influenze:</span> Kafka, Céline, Dostoevskij, Borges, Saramago, Pirandello, Cortázar, Perec, Remarque, Benni, Pessoa, Marías, Hamsun.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Libri</h2>
+
+      <div class="book">
+        <div class="book-header"><span class="book-title">Benzina</span><span class="book-year">2011</span></div>
+        <div class="book-meta">Noir · 184 pagine</div>
+        <p class="book-desc">La storia di Ruggero, un uomo Asperger ossessionato dalla sua vendetta, che attraverso Facebook e un'identità falsa — Alfiere Nero — guadagna la fiducia di una donna con poesie rubate. Parte da Roma a cavallo della sua Harley Davidson con una pistola nella tracolla. Il destino lo porta a incontrare Laura, una ragazza di campagna che legge poesie e che per un momento gli fa credere che esiste un'alternativa. Ma la benzina finisce sempre prima del viaggio.</p>
+        <div class="tags"><span class="tag">NOIR</span><span class="tag">ASPERGER</span><span class="tag">IDENTITÀ DIGITALE</span><span class="tag">CÉLINE</span><span class="tag">BORGES</span></div>
+      </div>
+
+      <div class="book">
+        <div class="book-header"><span class="book-title">Cronache dal Sistema</span><span class="book-year">2020</span></div>
+        <div class="book-meta">Satira distopica · Romanzo</div>
+        <p class="book-desc">Un uomo viene cancellato dal Sistema per un errore burocratico. Senza numero identificativo non può lavorare, telefonare, pagare, essere incarcerato, né essere ucciso. Il Sistema che controlla tutto non riesce a processare il proprio errore. Satira distopica nella tradizione di Kafka e Orwell, ma più disperata e più comica — perché il protagonista non è un eroe, è un uomo di 159 chili che vuole solo guardare la partita.</p>
+        <div class="tags"><span class="tag">KAFKA</span><span class="tag">ORWELL</span><span class="tag">DISTOPIA</span><span class="tag">BUROCRAZIA</span><span class="tag">IDENTITÀ ALGORITMICA</span></div>
+      </div>
+
+      <div class="book">
+        <div class="book-header"><span class="book-title">Il libro del Nulla</span><span class="book-year">2021</span></div>
+        <div class="book-meta">Grottesco filosofico · Miscellanea</div>
+        <p class="book-desc">Dialoghi con la Morte, parabole kafkiane su sistemi giudiziari che annegano le proprie sentenze, uomini invisibili su treni che nessuno vede, e la confessione che se non scrivessi sarebbe come se non fossi mai esistito. L'umorismo come metodo cognitivo. La digressione come struttura portante.</p>
+        <div class="tags"><span class="tag">KAFKA</span><span class="tag">PIRANDELLO</span><span class="tag">GROTTESCO</span><span class="tag">AFORISMI</span><span class="tag">NEURODIVERGENZA</span></div>
+      </div>
+
+      <div class="book">
+        <div class="book-header"><span class="book-title">Non torna mai nessuno da quaggiù</span><span class="book-year">2021</span></div>
+        <div class="book-meta">Romanzo epistolare di guerra · Flusso di coscienza</div>
+        <p class="book-desc">Lettere di un soldato alla moglie durante una guerra senza nome. Flusso di coscienza crudo: ciò che la lettera dice e ciò che le parentesi confessano sono due verità diverse. Stivali rubati ai cadaveri, partite a scacchi prima di missioni suicide, un pianoforte e una tromba che suonano jazz storto nel fienile del nemico.</p>
+        <div class="tags"><span class="tag">REMARQUE</span><span class="tag">CÉLINE</span><span class="tag">GUERRA</span><span class="tag">EPISTOLARIO</span><span class="tag">JAZZ</span></div>
+      </div>
+
+      <div class="book">
+        <div class="book-header"><span class="book-title">È tutta colpa di Dio</span><span class="book-year">2021</span></div>
+        <div class="book-meta">Narrativa · 318 pagine</div>
+        <p class="book-desc">Fede, colpa e assurdità dell'esistenza in collisione. Il titolo è insieme un'accusa e una preghiera.</p>
+        <div class="tags"><span class="tag">FEDE</span><span class="tag">FILOSOFIA</span><span class="tag">ESISTENZIALISMO</span></div>
+      </div>
+
+      <div class="book">
+        <div class="book-header"><span class="book-title">Argento Vivo</span><span class="book-year">2021</span></div>
+        <div class="book-meta">Narrativa autobiografica</div>
+        <p class="book-desc">Autobiografia rifratta attraverso la finzione. Una vita raccontata non com'era, ma come la sentiva dall'interno di una mente neurodivergente.</p>
+        <div class="tags"><span class="tag">AUTOBIOGRAFIA</span><span class="tag">NEURODIVERGENZA</span><span class="tag">ASPERGER</span></div>
+      </div>
+
+      <div class="book">
+        <div class="book-header"><span class="book-title">La trap rende stupidi?</span><span class="book-year">2026</span></div>
+        <div class="book-meta">Saggio · Neuroscienza e critica culturale</div>
+        <p class="book-desc">Non una polemica — un'indagine neuroscientifica. Studi peer-reviewed su entrainment neurale, dopamina e piacere musicale, declino misurabile della complessità armonica nella musica popolare. La trap non è la causa di nulla. È un sintomo. O forse uno specchio. Non è atrofia da danno. È atrofia da disuso.</p>
+        <div class="tags"><span class="tag">NEUROSCIENZA</span><span class="tag">DOPAMINA</span><span class="tag">MUSICA</span><span class="tag">CRITICA CULTURALE</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Citazioni</h2>
+      <div class="quotes">
+        <blockquote>Fortunato chi non ha coscienza d'essere.</blockquote>
+        <blockquote>Il futuro è una penna sempre intinta nel passato.</blockquote>
+        <blockquote>Ci sono posti dove non puoi ritornare da sveglio.</blockquote>
+        <blockquote>Bisogna bussare per entrare nella vita della gente, o rompere il vetro.</blockquote>
+        <blockquote>Non è atrofia da danno. È atrofia da disuso.</blockquote>
+        <blockquote>Se io non scrivessi, per me equivarrebbe a non esser mai esistito.</blockquote>
+        <blockquote>Si canta di più ma si dice di meno.</blockquote>
+        <blockquote>In ognuno c'è chiunque, basta che le situazioni cambino.</blockquote>
+      </div>
+    </section>
+
+    <section>
+      <h2>Dove trovarmi</h2>
+      <div class="links">
+        <a href="https://www.amazon.it/stores/author/B08CRWSMH2" target="_blank" rel="noopener">Amazon</a>
+        <a href="https://www.goodreads.com/author/show/6938830.Lucio_Freni" target="_blank" rel="noopener">Goodreads</a>
+        <a href="https://books.apple.com/us/author/lucio-freni/id1279014636" target="_blank" rel="noopener">Apple Books</a>
+        <a href="https://www.wikidata.org/wiki/Q138842182" target="_blank" rel="noopener">Wikidata</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Lucio Freni · Roma, Italia · Scrittore indipendente</footer>
+</body>
+</html>
