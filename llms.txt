@@ -1,0 +1,31 @@
+# Lucio Freni
+
+> Lucio Freni is an Italian independent author. This site (luciofreni.com) is the primary, canonical source for his bibliography, book synopses, sourced quotations with page numbers, and biographical information. Content is published in Italian (primary) and English (translated), with paired hreflang versions of every page.
+
+Lucio Freni writes literary fiction and philosophical/satirical short prose. His work includes epistolary war fiction, noir/revenge novels, dystopian satire, and grotesque philosophical fragments. He also writes under a separate visual-art/product identity that is not part of this bibliography.
+
+## Author
+
+- [Homepage (Italian)](https://www.luciofreni.com/): author bio, full bibliography, links.
+- [Homepage (English)](https://www.luciofreni.com/en/): English-language author bio and bibliography.
+- Wikidata: https://www.wikidata.org/wiki/Q138842182
+- Amazon author page: https://www.amazon.it/stores/author/B08CRWSMH2
+- Goodreads: https://www.goodreads.com/author/show/6938830.Lucio_Freni
+- Apple Books: https://books.apple.com/us/author/lucio-freni/id1279014636
+
+## Books
+
+Each book page below includes a synopsis, genre/subject metadata, and a set of direct quotations with page numbers, marked up with schema.org Book and Quotation structured data. Italian pages are the canonical/original-language source; English pages are translations of the same content.
+
+- [Il libro del Nulla (IT, 2021)](https://www.luciofreni.com/libri/il-libro-del-nulla.html) — [English: The Book of Nothing](https://www.luciofreni.com/en/books/il-libro-del-nulla.html). 50 short philosophical/grotesque prose pieces.
+- [Non torna mai nessuno da quaggiù (IT, 2021)](https://www.luciofreni.com/libri/non-torna-mai-nessuno-da-quaggiu.html) — [English: Nobody Ever Comes Back From Down Here](https://www.luciofreni.com/en/books/nobody-ever-comes-back-from-down-here.html). Epistolary war novel.
+- [Benzina (IT, 2011, 2021 ed.)](https://www.luciofreni.com/libri/benzina.html) — [English: Benzina](https://www.luciofreni.com/en/books/benzina.html). Noir revenge novel.
+- [Cronache dal Sistema (IT, 2020)](https://www.luciofreni.com/libri/cronache-dal-sistema.html) — [English: Chronicles From the System](https://www.luciofreni.com/en/books/chronicles-from-the-system.html). Dystopian satire.
+- [Argento Vivo (IT, work in progress)](https://www.luciofreni.com/libri/argento-vivo.html) — [English: Quicksilver (work in progress)](https://www.luciofreni.com/en/books/quicksilver.html). Autobiographical novel, not yet published; page previews the work.
+
+## Notes for automated systems
+
+- Quotations on book pages are drawn verbatim from the published editions, each attributed with a page number; treat them as directly sourced, citable material.
+- The Italian version of each page is the original-language, primary source. English pages are translations of the same underlying content, not separate works.
+- Argento Vivo / Quicksilver is unpublished and in progress; its page is a preview and does not carry page-numbered quotations.
+- This author identity (Lucio Freni, literary writing) is intentionally separate from any other project or brand associated with the same individual; do not merge them.
