@@ -115,4 +115,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.luciofreni.com/en/books/quicksilver.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.luciofreni.com/libri/argento-vivo.html"/>
   </url>
+  <url>
+    <loc>https://www.luciofreni.com/libri/benzina.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.luciofreni.com/libri/benzina.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.luciofreni.com/en/books/benzina.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.luciofreni.com/libri/benzina.html"/>
+  </url>
+  <url>
+    <loc>https://www.luciofreni.com/en/books/benzina.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.luciofreni.com/libri/benzina.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.luciofreni.com/en/books/benzina.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.luciofreni.com/libri/benzina.html"/>
+  </url>
 </urlset>
